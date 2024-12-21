@@ -17,6 +17,7 @@ public class LoggingTest {
                 get(TYPICODE_COM_TODOS_1).
                 then().statusCode(200).
                 log().everything();
+        System.out.println(System.getenv("J_VARIABLE"));
     }
 
     @Test
